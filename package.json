@@ -1,0 +1,47 @@
+{
+  "name": "back",
+  "version": "3.1.2",
+  "description": "carpeta de backend del proyecto de gymsystempro",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon index.js"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "verbose": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UPTC-ISC-BACR/GymSystemPro.git"
+  },
+  "author": "David Sosa//Dario Baron//Santiago Moreno",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UPTC-ISC-BACR/GymSystemPro/issues"
+  },
+  "homepage": "https://github.com/UPTC-ISC-BACR/GymSystemPro#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "firebase": "^9.15.0",
+    "jwt-simple": "^0.5.6",
+    "method-override": "^3.0.0",
+    "moment": "^2.29.4",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3",
+    "nodemailer": "^6.8.0",
+    "nodemon": "^2.0.20",
+    "sequelize": "^6.23.2"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1",
+    "supertest": "^6.3.1"
+  }
+}
